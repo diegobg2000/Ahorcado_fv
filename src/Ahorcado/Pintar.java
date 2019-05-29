@@ -4,9 +4,7 @@ import java.awt.Color;
 import java.awt.Graphics;
 import javax.swing.JPanel;
 
-/**
- * Archive: Pintar.java
- */
+/**/
 public class Pintar extends JPanel
 {
     private int fallo = 0;
@@ -15,7 +13,7 @@ public class Pintar extends JPanel
     
     public Pintar()
     {
-        setSize(300,300);/*Dentro de la clase pintar, el conatructor pintar el tamaño es (ancho, alto)*/
+        setSize(300,300);/*Dentro de la clase pintar, el conatructor pintar el tamaÃ±o es (ancho, alto)*/
     }
     
     public void paintComponent(Graphics g)/*Dibujara todo el lienzo*/
